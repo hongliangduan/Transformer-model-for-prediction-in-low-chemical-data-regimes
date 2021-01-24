@@ -9,7 +9,7 @@ The dataset we used is named as general chemical reaction dataset, which contain
 # Generate data
 We preprocess the input data by running the datagen.sh script, and put the output data in the t2t_data folder.
 # Data augmentation
-We use a Python program 1 to perform data augmentation on the training data set of the Baeyer Villiger reaction data set with the SMILES form.
+We use a Python program data_augmentation.py to perform data augmentation on the training data set of the Baeyer Villiger reaction data set with the SMILES form.
 # Train
 Model use the train.sh script to start training.
 # Test
